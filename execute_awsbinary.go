@@ -167,7 +167,7 @@ func Execute(serviceName string,
 	requestedLambdaFunctionName := os.Getenv("AWS_LAMBDA_FUNCTION_NAME")
 
 	// Log any info when we start up...
-	platformLogSysInfo(requestedLambdaFunctionName, logger)
+	// platformLogSysInfo(requestedLambdaFunctionName, logger)
 
 	// So what if we have workflow hooks in here?
 	var interceptors *LambdaEventInterceptors
